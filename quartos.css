@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container-limite {
+    width: 1024px;
+    margin: 0 auto;    
+}
+.topo{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.topo h2 {
+    color: #3D3D3B;
+    font-size: 19px;
+    font-weight: 500;
+}
+.link-topo a {
+    color: #4F4B4B;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 20px;
+    }
+.link-topo :hover {
+    color: #0e0be7;
+}
+span {
+    color:#839BBF;
+    font-weight: 600;
+}
+
+.banner{
+    width: 100%;
+    height: 40vh;
+    background-image: url(./assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quartos h2{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #4A5456;
+    padding-top: 60px;
+}
+.quartos p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #4A5456;
+    padding: 35px 0;
+}
+.img-quartos{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 338px;
+    height: 220px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.container-informacoes{
+    width: 700px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.lista-opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.rodape{
+    background-color: #49997C;    
+}
+
+.card {
+    padding: 15px 0;    
+    display: flex;
+    border-bottom: 2px solid #408C70;
+    align-items: center;
+    justify-content: space-between;   
+}
+.card-rodape{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.card img{
+    width: 35px;
+    height: 35px;
+}
+.card p{
+    font-size: 14px;
+    color: #fff;
+    width: 160px;
+    padding-left: 10px;
+    text-align: left;
+}
+.card h3{
+    width: 160px;
+    color: #fff;
+    
+    font-size: 18px;
+    font-weight: bold;
+}
+.registro p{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    
+}
